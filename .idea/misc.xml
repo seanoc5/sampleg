@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" />
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/work/play2/myPlaySlick3Example" value="1476648861636" />
+        <entry key="$USER_HOME$/work/play2/playScala" value="1477099924394" />
+        <entry key="$USER_HOME$/work/play2/playScalaFoo" value="1477250379956" />
+        <entry key="$USER_HOME$/work/play2/playScalaH2" value="1477250208972" />
+        <entry key="$USER_HOME$/work/play2/playSlick3" value="1477270428793" />
+        <entry key="$USER_HOME$/work/play2/playSlickH2" value="1477249520000" />
+        <entry key="$USER_HOME$/work/prn/play-slick3-example" value="1473013709888" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="$USER_HOME$/.sdkman/candidates/sbt/1.1.1/bin/sbt-launch.jar" />
+    <option name="maximumHeapSize" value="2048" />
+  </component>
+  <component name="accountSettings">
+    <option name="activeRegion" value="us-east-1" />
+    <option name="recentlyUsedRegions">
+      <list>
+        <option value="us-east-1" />
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+# Sample Groovy (SampleG) project
+
+Collection of code I am testing/experimenting with.
+
+If you come across this, and find anything useful, drop me a note on the Guthub project.
+
