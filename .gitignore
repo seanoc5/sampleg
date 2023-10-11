@@ -1,6 +1,7 @@
 .gradle
 build/
 **/log
+**/*.log
 
 
 !gradle/wrapper/gradle-wrapper.jar
@@ -43,3 +44,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# /src/main/groovy/com/oconeco/hacking/logs/sampleg.log
