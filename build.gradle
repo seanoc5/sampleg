@@ -26,8 +26,12 @@ dependencies {
     implementation "org.apache.tika:tika-core:2.8.0"
     implementation "org.apache.tika:tika-parsers-standard-package:2.8.0"
 
-
     implementation("org.jsoup:jsoup:1.16.1")
+
+    implementation 'net.dankito.readability4j:readability4j:1.0.8'
+
+    implementation 'org.postgresql:postgresql:42.6.0'
+
 }
 
 test {
