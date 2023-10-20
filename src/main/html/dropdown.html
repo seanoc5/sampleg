@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Combobox as a form element</h2>
+<p>As we all know combobox is the combination of the Select tag and Form element. Here we are going to create same thing
+    in which we are creating combolist in which user can select option as per their choice and this option will redirect
+    to the that particular option so It can be able to open new form using this option .</p>
+<form action="./Dropdownlist.html">
+    <input list="html_elements" name="web_language">
+    <datalist id="html_elements">
+        <option value="Anchor_tag"></option>
+        <option value="Aside _tag"></option>
+        <option value="dragdrop"></option>
+        <option value="Dropdownlist"></option>
+        <option value="Font_tag"></option>
+        <option value="Block_elements"></option>
+        <option value="Blockquote"></option>
+        <option value="Colsapn"></option>
+        <option value="inline_style"></option>
+        <option value="Kbd"></option>
+        <option value="Meta_tags"></option>
+        <option value="Quotation"></option>
+        <option value="Table_background"></option>
+        <option value="Table_border"></option>
+        <option value="Caption"></option>
+        <option value="Select tag"></option>
+    </datalist>
+    <input type="submit">
+    <script>
+        let fruit = 'orange';
+
+        switch (fruit) {
+          case 'apples':
+          case 'oranges':
+            console.log('case: Known fruit (oranges)');
+            break;
+          default:
+            console.log('case: Unknown fruit');
+        }
+        // Logs: 'Known fruit'
+        const knownFruit = () => console.log('obj literal: Known fruit');
+        const unknownFruit = (f) => console.log('obj literal: Unknown fruit: ' + f);
+
+        const logFruit = {
+          'apples': knownFruit,
+          'oranges': knownFruit,
+          'default': unknownFruit(f)
+        };
+
+        (logFruit[fruit] || logFruit['default'])();
+    </script>
+
+</form>
+</body>
+</html>
