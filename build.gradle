@@ -20,6 +20,16 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-api:2.18.0")
     implementation "org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0"
 
+//    implementation "org.seleniumhq.selenium:selenium:2.0rc2"
+    implementation 'org.seleniumhq.selenium:selenium-java:4.16.1'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+//    implementation 'org.htmlunit:htmlunit-xpath:'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/htmlunit-driver
+    implementation 'org.seleniumhq.selenium:htmlunit-driver:4.13.0'
+    implementation('net.sourceforge.htmlunit:htmlunit:2.70.0') {
+        exclude group: 'xml-apis', module: 'xml-apis'
+    }
+
     // https://mvnrepository.com/artifact/org.apache.solr/solr-solrj
     implementation group: 'org.apache.solr', name: 'solr-solrj', version: '9.3.0'
 
