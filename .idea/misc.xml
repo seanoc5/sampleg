@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" />
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="temurin-17" project-jdk-type="JavaSDK" />
   <component name="SbtLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/work/play2/myPlaySlick3Example" value="1476648861636" />
-        <entry key="$USER_HOME$/work/play2/playScala" value="1477099924394" />
-        <entry key="$USER_HOME$/work/play2/playScalaFoo" value="1477250379956" />
-        <entry key="$USER_HOME$/work/play2/playScalaH2" value="1477250208972" />
-        <entry key="$USER_HOME$/work/play2/playSlick3" value="1477270428793" />
-        <entry key="$USER_HOME$/work/play2/playSlickH2" value="1477249520000" />
-        <entry key="$USER_HOME$/work/prn/play-slick3-example" value="1473013709888" />
+        <entry key="$PROJECT_DIR$/../../play2/myPlaySlick3Example" value="1476648861636" />
+        <entry key="$PROJECT_DIR$/../../play2/playScala" value="1477099924394" />
+        <entry key="$PROJECT_DIR$/../../play2/playScalaFoo" value="1477250379956" />
+        <entry key="$PROJECT_DIR$/../../play2/playScalaH2" value="1477250208972" />
+        <entry key="$PROJECT_DIR$/../../play2/playSlick3" value="1477270428793" />
+        <entry key="$PROJECT_DIR$/../../play2/playSlickH2" value="1477249520000" />
+        <entry key="$PROJECT_DIR$/../../prn/play-slick3-example" value="1473013709888" />
       </map>
     </option>
     <option name="externalProjectsViewState">
