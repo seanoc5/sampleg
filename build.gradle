@@ -27,6 +27,7 @@ dependencies {
     implementation "org.apache.tika:tika-core:2.8.0"
     implementation "org.apache.tika:tika-parsers-standard-package:2.8.0"
 
+add     implementation 'org.postgresql:postgresql:42.6.0'
 
     implementation("org.jsoup:jsoup:1.16.1")
 
