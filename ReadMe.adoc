@@ -4,3 +4,6 @@ Collection of code I am testing/experimenting with.
 
 If you come across this, and find anything useful, drop me a note on the Guthub project.
 
+I'm also playing a bit with spark, sparknlp, and scala.
+
+One of the todo items I have queued up is program snippet detection.

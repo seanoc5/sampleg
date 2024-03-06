@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            height: 1000px; /* Just for demonstration, adjust as needed */
+            background-color: #eee;
+            padding: 20px;
+        }
+    </style>
+    <title>Tagging form example</title>
+</head>
+<body>
+
+<h2>Example form below...</h2>
+<form action="test">
+    <div class="row">
+        <label class="col-md-2" for="tag">Tag</label>
+        <input id="tag" class="col-md-10" name="tag" placeholder="tag...">
+    </div>
+
+    <div class="row">
+
+        <label for="weight" class="col-md-2">Weight</label>
+        <input id="weight" name="weight" class="col-md-9" placeholder="1">
+    </div>
+
+    <div class="row">
+        <label for="desciption">Description</label>
+        <input id="desciption" name="desciption" placeholder="descriptive text/info">
+    </div>
+</form>
+
+<script>
+    /*
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var contentDiv = document.getElementById("block3");
+            var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+            // You can adjust the threshold value as needed
+            var threshold = 200;
+
+            if (scrollPosition > threshold) {
+                // Adjust the position of the content div
+                contentDiv.style.position = "fixed";
+                contentDiv.style.top = "0";
+            } else {
+                // Reset the position when scrolling back up
+                contentDiv.style.position = "static";
+            }
+            console.log("Done?");
+        }
+    */
+</script>
+
+</body>
+</html>
