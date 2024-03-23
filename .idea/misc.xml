@@ -4,7 +4,34 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="zulu-17" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="temurin-17" project-jdk-type="JavaSDK" />
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../play2/myPlaySlick3Example" value="1476648861636" />
+        <entry key="$PROJECT_DIR$/../../play2/playScala" value="1477099924394" />
+        <entry key="$PROJECT_DIR$/../../play2/playScalaFoo" value="1477250379956" />
+        <entry key="$PROJECT_DIR$/../../play2/playScalaH2" value="1477250208972" />
+        <entry key="$PROJECT_DIR$/../../play2/playSlick3" value="1477270428793" />
+        <entry key="$PROJECT_DIR$/../../play2/playSlickH2" value="1477249520000" />
+        <entry key="$PROJECT_DIR$/../../prn/play-slick3-example" value="1473013709888" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="$USER_HOME$/.sdkman/candidates/sbt/1.1.1/bin/sbt-launch.jar" />
+    <option name="maximumHeapSize" value="2048" />
+  </component>
+  <component name="accountSettings">
+    <option name="activeRegion" value="us-east-1" />
+    <option name="recentlyUsedRegions">
+      <list>
+        <option value="us-east-1" />
+      </list>
+    </option>
   </component>
 </project>
