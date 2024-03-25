@@ -11,6 +11,9 @@ import org.apache.solr.client.solrj.response.CollectionAdminResponse
 import org.apache.solr.common.SolrInputDocument
 import org.postgresql.jdbc.PgArray
 
+/**
+ * utility class to help with code reuse
+ */
 public class CMHelper {
     public static Logger log = LogManager.getLogger(this.class.name);
 
