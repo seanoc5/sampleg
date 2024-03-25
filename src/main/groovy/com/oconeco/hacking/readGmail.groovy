@@ -15,8 +15,8 @@ import org.apache.logging.log4j.core.Logger
 Logger log = LogManager.getLogger(this.class.name);
 log.info "Starting script: ${this.class.name}..."
 
-final String username = "seanoc5@gmail.com";
-final String password = "mwbh dchm qwgz otxg ";
+final String username = "someaddy at server";
+final String password = "change me";
 
 Properties props = new Properties();
 props.put("mail.store.protocol", "imaps");
