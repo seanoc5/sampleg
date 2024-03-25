@@ -48,7 +48,8 @@ final int BATCH_SIZE = 50
 //String collection = 'corpusminder'
 String solrBase = options.solrbase
 final SolrClient solrClient = CMHelper.buildSolrClient(solrBase, 8983)
-final List<String> existingCollections = CMHelper.loadSolrCollections(solrClient)
+//final List<String> existingCollections = CMHelper.listSolrCollections(solrClient)
+final List<String> existingCollections = ['SparkNLP', 'Editors___IDEs']
 
 // Initialize a database connection
 final Sql sql = Sql.newInstance(dbUrl, dbUser, dbPassword, 'org.postgresql.Driver')

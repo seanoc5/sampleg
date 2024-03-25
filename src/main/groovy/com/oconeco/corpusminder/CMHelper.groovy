@@ -166,7 +166,7 @@ public class CMHelper {
      * @param solrClient
      * @return list of existing collection names
      */
-    public static List<String> loadSolrCollections(SolrClient solrClient){
+    public static List<String> listSolrCollections(SolrClient solrClient){
         List<String> existingCollections = CollectionAdminRequest.listCollections(solrClient);
         return existingCollections
     }
